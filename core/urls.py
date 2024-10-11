@@ -26,4 +26,5 @@ urlpatterns = [
     path('integration/', include('integration.urls')),
     path('', views.index, name='home-page'),
     path('products/', include('products.urls')),
+    path('v1/user/', include('user.urls', namespace='v1')),
 ]
