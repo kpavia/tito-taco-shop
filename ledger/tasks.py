@@ -31,13 +31,6 @@ def record_transaction(data):
     return (True, 'Transaction completed')
 
 
-def purchase_item(item):
-    """
-    Call the chat integration.
-    """
-    pass
-
-
 def redeem_tacos(data):
     """
     Redeem tacos by giving them to Tito.
